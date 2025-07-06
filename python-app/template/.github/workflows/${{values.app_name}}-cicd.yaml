@@ -33,7 +33,7 @@ jobs:
 
   cd:
     needs: ci
-    runs-on: Organization/Default
+    runs-on: arc-runner-set
     steps:
 
       - uses: actions/checkout@v3
